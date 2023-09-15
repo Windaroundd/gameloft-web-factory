@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { logo_gameloft_black, btn_menu } from "../../utils/exportImages";
 const Header = () => {
   return (
-    <header className="bg-lightBlue fixed left-0 top-0 z-40 h-20 w-full">
+    <header className="fixed left-0 top-0 z-40 h-20 w-full bg-lightBlue">
       <nav className=" mx-auto flex w-[95%] items-center justify-between">
         <section>
           <h1>

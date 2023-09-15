@@ -11,7 +11,9 @@ import btn_menu from "../../assets/icons/btn-menu.svg";
 import img_minions from "../../assets/images/registerForm/minions.png";
 import icon_web from "../../assets/icons/Web.svg";
 import img_exclusive from "../../assets/images/exclusive/exclusive-img.png";
-
+import img_microsoft from "../../assets/images/hotspotBanner/microsoft.png";
+import img_nitendo from "../../assets/images/hotspotBanner/nitendo.png";
+import img_steam from "../../assets/images/hotspotBanner/steam.png";
 export {
   logo_facebook,
   logo_linkedin,
@@ -26,4 +28,7 @@ export {
   img_minions,
   icon_web,
   img_exclusive,
+  img_microsoft,
+  img_nitendo,
+  img_steam,
 };
