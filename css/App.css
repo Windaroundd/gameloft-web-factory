@@ -214,4 +214,12 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.section-title {
+  @apply text-left text-5xl font-bold uppercase text-mainBlue;
+}
+
+.section-desc {
+  @apply text-xl font-normal text-mainBlue;
 }/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,58 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  overflow-y: visible !important;
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .swiper-pagination {
+    font-size: 20px !important;
+  }
+  .swiper-pagination-fraction {
+    color: #2699fb;
+    bottom: -30% !important;
+  }
+  .swiper-pagination-current {
+    font-weight: 700;
+    font-size: 20px !important;
+  }
+  .swiper-pagination-total,
+  .swiper-pagination-current {
+    font-size: 20px !important;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: "" !important;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 126% !important;
+    z-index: 20 !important;
+  }
+  .swiper-button-next {
+    background-image: url("../../assets/icons/arrow-right.svg");
+    background-repeat: no-repeat;
+    width: 48px !important;
+    right: 44% !important;
+  }
+  .swiper-button-prev {
+    background-image: url("../../assets/icons/arrow-left.svg");
+    background-repeat: no-repeat;
+    width: 48px !important;
+    left: 44% !important;
+  }
+}

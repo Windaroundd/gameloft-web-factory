@@ -10,6 +10,7 @@ import icon_starYellow from "../../assets/icons/starYellow.svg";
 import btn_menu from "../../assets/icons/btn-menu.svg";
 import img_minions from "../../assets/images/registerForm/minions.png";
 import icon_web from "../../assets/icons/Web.svg";
+import img_exclusive from "../../assets/images/exclusive/exclusive-img.png";
 
 export {
   logo_facebook,
@@ -24,4 +25,5 @@ export {
   btn_menu,
   img_minions,
   icon_web,
+  img_exclusive,
 };
