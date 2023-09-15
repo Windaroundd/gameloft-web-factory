@@ -9,6 +9,7 @@ import icon_star from "../../assets/icons/star.svg";
 import icon_starYellow from "../../assets/icons/starYellow.svg";
 import btn_menu from "../../assets/icons/btn-menu.svg";
 import img_minions from "../../assets/images/registerForm/minions.png";
+import icon_web from "../../assets/icons/Web.svg";
 
 export {
   logo_facebook,
@@ -22,4 +23,5 @@ export {
   bg_img,
   btn_menu,
   img_minions,
+  icon_web,
 };
